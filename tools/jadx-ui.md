@@ -1,3 +1,18 @@
+---
+title: jadx-ui 工具介紹
+tags:
+  - android
+  - tool
+  - reverse-engineering
+  - jadx
+  - apk
+desc: jadx GUI 工具介紹，整理 APK 反編譯、結構查看、推薦原因、用途與官方來源。
+author: icools
+date: 2026-03-29
+source: https://github.com/skylot/jadx
+status: active
+---
+
 # jadx-ui
 
 ## 工具簡介

@@ -1,3 +1,17 @@
+---
+title: scrcpy 工具介紹
+tags:
+  - android
+  - tool
+  - scrcpy
+  - debugging
+desc: Android 真機畫面鏡像與控制工具介紹，包含推薦原因、用途、適合情境與官方來源。
+author: icools
+date: 2026-03-29
+source: https://github.com/Genymobile/scrcpy
+status: active
+---
+
 # scrcpy
 
 ## 工具簡介

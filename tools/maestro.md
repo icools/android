@@ -1,3 +1,18 @@
+---
+title: Maestro 工具介紹
+tags:
+  - android
+  - tool
+  - maestro
+  - testing
+  - automation
+desc: Maestro UI 自動化與 E2E 測試工具介紹，包含推薦原因、用途、適合情境與官方來源。
+author: icools
+date: 2026-03-29
+source: https://github.com/mobile-dev-inc/maestro
+status: active
+---
+
 # Maestro
 
 ## 工具簡介
