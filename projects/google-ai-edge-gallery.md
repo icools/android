@@ -5,7 +5,7 @@ tags:
   - project
   - open-source
   - ai
-  - on-device-ai
+  - on-device-a
   - google-ai-edge
 desc: Google AI Edge Gallery 是一個展示裝置端生成式 AI 能力的開源 Android 應用，可本地執行模型、聊天、看圖問答與音訊轉錄。
 author: icools
