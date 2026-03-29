@@ -21,6 +21,7 @@ status: active
 - `AI Studio`
 - `Vertex AI`
 - `NotebookLM`
+- [Android Studio Skills](android-studio-skills.md) - Android Studio Agent Mode 的 project-local skill 機制與結構。
 
 ## 之後可整理的方向
 
@@ -29,3 +30,4 @@ status: active
 - AI Studio 的適用情境
 - Vertex AI 的平台定位
 - NotebookLM 適合拿來做什麼
+- Android Studio 裡 skill 怎麼和團隊 workflow 結合

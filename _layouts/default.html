@@ -96,24 +96,33 @@
 
             {% assign section_name = page.name | split: '.' | first %}
             {% assign section_prefix = section_name | append: '/' %}
-            {% assign child_pages = site.pages | where_exp: "child", "child.path != page.path and child.path contains section_prefix" | sort: "title" %}
-            {% if page.dir == '/' and child_pages.size > 0 %}
-              <section class="auto-list">
-                <div class="section-heading">
-                  <p class="panel-label">Auto Index</p>
-                  <h2>分類文章</h2>
-                </div>
-                <div class="card-grid compact">
-                  {% for child in child_pages %}
+            {% if page.dir == '/' %}
+              {% assign child_count = 0 %}
+              {% capture child_cards %}
+                {% assign sorted_pages = site.pages | sort: "title" %}
+                {% for child in sorted_pages %}
+                  {% if child.path != page.path and child.path contains section_prefix %}
+                    {% assign child_count = child_count | plus: 1 %}
                     <a class="mini-card" href="{{ child.url | relative_url }}">
                       <strong>{{ child.title }}</strong>
                       {% if child.desc %}
                         <span>{{ child.desc }}</span>
                       {% endif %}
                     </a>
-                  {% endfor %}
-                </div>
-              </section>
+                  {% endif %}
+                {% endfor %}
+              {% endcapture %}
+              {% if child_count > 0 %}
+                <section class="auto-list">
+                  <div class="section-heading">
+                    <p class="panel-label">Auto Index</p>
+                    <h2>分類文章</h2>
+                  </div>
+                  <div class="card-grid compact">
+                    {{ child_cards }}
+                  </div>
+                </section>
+              {% endif %}
             {% endif %}
           </article>
         </main>
