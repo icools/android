@@ -1,0 +1,55 @@
+primary:
+  - title: 首頁
+    url: /
+  - title: Tools
+    url: /tools/
+  - title: Projects
+    url: /projects/
+  - title: Debugging
+    url: /debugging/
+  - title: Performance
+    url: /performance/
+  - title: Kotlin
+    url: /kotlin/
+  - title: Workflow
+    url: /workflow/
+  - title: Todo
+    url: /todo/
+
+library:
+  - title: Tools
+    url: /tools/
+    kicker: Toolchain
+    description: 開發與測試時常用的 Android 工具入口，包含實用理由、適合情境與後續延伸主題。
+  - title: Projects
+    url: /projects/
+    kicker: Case Study
+    description: 收藏值得拆解研究的 Android app 與開源專案，作為功能、架構與體驗觀察樣本。
+  - title: Debugging
+    url: /debugging/
+    kicker: Diagnose
+    description: 聚焦問題定位與排查流程，整理 log、crash、ANR 與 WebView 等常見除錯方向。
+  - title: Performance
+    url: /performance/
+    kicker: Optimize
+    description: 用來累積 UI 卡頓、啟動速度、GPU、記憶體與渲染觀察的效能筆記入口。
+  - title: Kotlin
+    url: /kotlin/
+    kicker: Language
+    description: 集中整理 Kotlin 語法、實務寫法，以及 Android 專案裡常遇到的語言模式。
+  - title: Workflow
+    url: /workflow/
+    kicker: Process
+    description: 收納開發流程、測試流程與自動化習慣，讓日常工作流逐步沉澱成可重用清單。
+  - title: Todo
+    url: /todo/
+    kicker: Inbox
+    description: 還在消化中的主題暫存區，先留下值得追的方向，再逐步整理成正式文章。
+
+references:
+  - title: 內容憲章
+    url: /CONTENT_CHARTER/
+    description: 定義這個知識庫的內容格式、分類原則與維護規範。
+  - title: GitHub Repo
+    url: https://github.com/icools/android
+    description: 原始 Markdown 倉庫與版本歷史。

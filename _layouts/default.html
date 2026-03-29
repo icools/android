@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-Hant' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.desc | default: page.description | default: site.description }}">
+    <meta name="theme-color" content="#0f766e">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{{ page.desc | default: page.description | default: site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <a class="brand-mark" href="{{ '/' | relative_url }}">Android Notes</a>
+          <p class="brand-copy">{{ site.description }}</p>
+        </div>
+        <nav class="top-nav" aria-label="Primary">
+          {% for item in site.data.navigation.primary %}
+            {% assign item_url = item.url | relative_url %}
+            {% assign current_url = page.url | relative_url %}
+            <a href="{{ item_url }}" {% if current_url == item_url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+
+      <div class="layout-grid">
+        <aside class="sidebar">
+          <section class="sidebar-panel">
+            <p class="panel-label">Knowledge Base</p>
+            <h2>分類入口</h2>
+            <ul class="sidebar-list">
+              {% for item in site.data.navigation.library %}
+                <li>
+                  <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  <p>{{ item.description }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+
+          <section class="sidebar-panel">
+            <p class="panel-label">Reference</p>
+            <h2>補充資源</h2>
+            <ul class="sidebar-list">
+              {% for item in site.data.navigation.references %}
+                <li>
+                  <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title }}</a>
+                  <p>{{ item.description }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        </aside>
+
+        <main class="content">
+          <article class="doc-card">
+            {% unless page.url == '/' %}
+              <header class="doc-header">
+                <p class="eyebrow">Android Notes</p>
+                <h1>{{ page.title | default: site.title }}</h1>
+                {% if page.desc %}
+                  <p class="deck">{{ page.desc }}</p>
+                {% endif %}
+                <div class="meta-row">
+                  {% if page.date %}
+                    <span>更新日期 {{ page.date | date: "%Y-%m-%d" }}</span>
+                  {% endif %}
+                  {% if page.author %}
+                    <span>作者 {{ page.author }}</span>
+                  {% endif %}
+                  {% if page.source and page.source != 'local' %}
+                    <span><a href="{{ page.source }}">來源連結</a></span>
+                  {% endif %}
+                </div>
+                {% if page.tags %}
+                  <ul class="tag-row" aria-label="Tags">
+                    {% for tag in page.tags %}
+                      <li>{{ tag }}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </header>
+            {% endunless %}
+
+            <div class="prose">
+              {{ content }}
+            </div>
+
+            {% assign section_name = page.name | split: '.' | first %}
+            {% assign section_prefix = section_name | append: '/' %}
+            {% assign child_pages = site.pages | where_exp: "child", "child.path != page.path and child.path contains section_prefix" | sort: "title" %}
+            {% if page.dir == '/' and child_pages.size > 0 %}
+              <section class="auto-list">
+                <div class="section-heading">
+                  <p class="panel-label">Auto Index</p>
+                  <h2>分類文章</h2>
+                </div>
+                <div class="card-grid compact">
+                  {% for child in child_pages %}
+                    <a class="mini-card" href="{{ child.url | relative_url }}">
+                      <strong>{{ child.title }}</strong>
+                      {% if child.desc %}
+                        <span>{{ child.desc }}</span>
+                      {% endif %}
+                    </a>
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
+          </article>
+        </main>
+      </div>
+
+      <footer class="site-footer">
+        <p>以 Markdown 為核心的 Android 開發知識庫，使用 GitHub Pages 發佈。</p>
+        <p><a href="https://github.com/icools/android">查看原始倉庫</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

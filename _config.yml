@@ -1,0 +1,23 @@
+title: Android 開發工具與心得筆記
+description: 個人的 Android 開發知識庫，整理工具、除錯、效能、Kotlin 與工作流程筆記。
+lang: zh-Hant
+timezone: Asia/Taipei
+url: "https://icools.github.io"
+baseurl: "/android"
+repository: icools/android
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
