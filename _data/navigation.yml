@@ -11,6 +11,8 @@ primary:
     url: /performance/
   - title: Kotlin
     url: /kotlin/
+  - title: AI
+    url: /ai/
   - title: Rust
     url: /rust/
   - title: Draft
@@ -37,6 +39,10 @@ library:
     url: /performance/
     kicker: Optimize
     description: 用來累積 UI 卡頓、啟動速度、GPU、記憶體與渲染觀察的效能筆記入口。
+  - title: AI
+    url: /ai/
+    kicker: Intelligence
+    description: 整理 AI 工具、LLM 模型、content engineering 與開發整合，涵蓋 OpenAI、Google、Mistral 等平台。
   - title: Kotlin
     url: /kotlin/
     kicker: Language
