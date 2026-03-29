@@ -1,3 +1,5 @@
+> 本專案內容完全是我透過 Codex 協助產生與修改。
+
 # Android 開發工具與心得筆記
 
 這個專案是我自己的 Android 開發筆記倉庫。
@@ -53,6 +55,12 @@
 ### `tools/`
 
 放 Android 工具介紹、使用心得與實戰範例。
+
+目前已建立：
+
+- [`tools/scrcpy.md`](tools/scrcpy.md)
+- [`tools/maestro.md`](tools/maestro.md)
+- [`tools/jadx-ui.md`](tools/jadx-ui.md)
 
 目前想先整理這些：
 
