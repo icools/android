@@ -19,6 +19,7 @@ status: active
 - [GitHub Copilot](github-copilot.md) - 貼近 IDE 與 repo 的開發型 AI 工具，適合補全、程式理解與局部協作。
 - [LM Studio](lm-studio.md) - 本地模型下載與執行工具，適合在桌面上快速切模型、做 prompt 實驗與提供 local API。
 - [Ollama](ollama.md) - 偏本地模型管理與 serving 的工具，適合把模型接進 local workflow。
+- [Perplexity Android](perplexity-android.md) - 把偏電腦端的研究與搜尋能力往 Android 手機情境延伸。
 - `n8n`
 - `OpenClaw`
 - `ElevenLabs`
