@@ -68,6 +68,12 @@ mindmap
         Ollama
       Content Engineering
     語言與架構
+      Android
+        API
+          Accessibility
+          Hilt
+          Worker / WorkManager
+          MVVM
       Kotlin
         Learning Resources
         Kotlin Playground
@@ -159,6 +165,7 @@ quadrantChart
     Tools: [0.18, 0.74]
     Debugging: [0.22, 0.70]
     Performance: [0.38, 0.72]
+    Android: [0.48, 0.68]
     Kotlin: [0.42, 0.63]
     Workflow: [0.50, 0.58]
     Projects: [0.62, 0.56]

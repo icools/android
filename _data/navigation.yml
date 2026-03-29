@@ -9,6 +9,8 @@ primary:
     url: /debugging/
   - title: Performance
     url: /performance/
+  - title: Android
+    url: /android/
   - title: Kotlin
     url: /kotlin/
   - title: AI
@@ -39,6 +41,10 @@ library:
     url: /performance/
     kicker: Optimize
     description: 用來累積 UI 卡頓、啟動速度、GPU、記憶體與渲染觀察的效能筆記入口。
+  - title: Android
+    url: /android/
+    kicker: Platform
+    description: 收納 Android 平台 API、背景工作與架構分層筆記，包含 Accessibility、Hilt、Worker、MVVM 等主題。
   - title: AI
     url: /ai/
     kicker: Intelligence

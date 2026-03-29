@@ -93,6 +93,23 @@ status: active
 
 如果目標是建立自己的 local AI playground，LM Studio 是很值得長期保留的一個基礎工具。
 
+## 很適合拿來接 Android 自動化實驗
+
+我最近很看重的一個延伸方向，是把 `LM Studio` 直接接到 Android 手機控制工具上。
+
+像我自己的 [DroidRunScript](../../tools/droidrun-script.md)，就是把：
+
+- `LM Studio` 的本地模型 API
+- `Python`
+- `ADB`
+- Android 端的 UI / accessibility 輔助能力
+
+串成一條手機自動操作 workflow。
+
+這類做法很有意思，因為它讓本地模型不只是聊天或寫字，而是真的開始能接手裝置操作。
+
+以目前體感來說，雲端模型通常還是更穩，但如果本地模型繼續進步，`LM Studio + local model + Android automation` 這條線非常值得長期追。
+
 ## 參考資料
 
 - [LM Studio Docs](https://lmstudio.ai/docs/)
