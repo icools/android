@@ -19,6 +19,8 @@ status: active
 
 它的重點不是要你一直在裡面手寫 code，而是讓你用需求、限制與驗收條件去驅動它完成事情。
 
+最近在 `GDG Taipei` 聽完一場把 `Antigravity` 和 `Spec-Driven Development` 放在一起講的分享後，我對它的定位更清楚了一點：它比較像是一個會沿著 `Plan → Act → Verify` 循環工作的 contractor，而且每一步都需要你持續給 feedback，而不是一句話丟出去就全自動完成的黑盒子。
+
 ## 為什麼它強
 
 我會覺得它強，是因為它不是只回答問題，而是比較偏向把多個 Google 服務、系統能力與工具操作串在一起。
@@ -31,6 +33,8 @@ status: active
 - 幫我整理一套簡報
 - 幫我生成需要的圖片與文案
 - 幫我把最後成果驗收一遍
+
+如果需求還在收斂、UI 細節很多、或者之後還要跨 session / 跨人交接，這種 spec-first 的工作方式會比「直接叫 AI 開做」穩很多。
 
 ## 比較像在寫需求，不是在寫 code
 
@@ -63,6 +67,8 @@ status: active
 
 那整個工作方式就會很像在管理一個會做事的 agent。
 
+這也是為什麼我會把 `Antigravity` 和 [Spec-Driven Development](../../design/spec-driven-development.md) 放在一起看：前者比較像 contractor，後者比較像讓 contractor 不會做歪的工作基線。
+
 ## 我目前會怎麼定位它
 
 我會把 Anti-gravity 看成：
@@ -78,3 +84,7 @@ status: active
 這類工具很適合拿來做網站、簡報、素材生成與流程驗收等工作。
 
 如果之後它和更完整的企業工作流、協作工具或 code assistant 深度整合，實用性應該還會再往上拉。
+
+如果想看我把這件事放回實際演講心得裡怎麼理解，也可以參考這篇：[不要當 code monkey：我在 GDG Taipei 聽完 Antigravity 與 Spec-Driven Development 的心得](../../workflow/android-gdg-taipei.md)。
+
+如果想看我把 `Antigravity` 的 implementation plan / task list，和 `Codex plan mode`、`Android Studio Agent Mode` 一起放回 `SDD` / `spec kit` 的工程脈絡裡理解，也可以再看這篇：[Plan Mode、SpecKit 與 SDD：先把需求問清楚，再讓 AI 開始做](../../workflow/plan-mode-spec-kit-and-sdd.md)。

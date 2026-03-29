@@ -79,6 +79,10 @@ AI 很可能會很勤勞地幫你寫出一堆東西，但方向不一定對。
 
 所以 `Spec-Driven Development` 的價值，在 AI 時代反而變得更高。
 
+而且它現在不只是抽象概念。我在 `GDG Taipei` 聽到把 `Antigravity` 和 `SDD` 一起講的內容後，最大的感受就是：當 agent 類工具開始真的會 `Plan`、`Act`、`Verify`，spec 的角色就會直接從文件升級成工作流控制面板。
+
+如果再把這件事往前推一步，我會覺得現在很多工具開始強調的 `plan mode`，其實就是把 `SDD` 拉進日常工作流的入口。你不是先叫 AI 寫，而是先讓它問清楚需求、列出規劃、讓你 review，再往下拆 task。
+
 ## 我自己偏好的 SDD 長相
 
 如果今天是偏功能或模組開發，我會希望 spec 至少要有下面幾塊：
@@ -146,7 +150,17 @@ AI 很可能會很勤勞地幫你寫出一堆東西，但方向不一定對。
 - 想降低反覆重工的任務
 - 要讓未來的自己回來看也看得懂
 
+如果再用更實戰的角度看，我會再補三種很典型的場景：
+
+- `新功能還在收斂中`：先寫 spec，再讓 AI 補 plan 和限制條件，比直接開做穩很多。
+- `UI / 互動細節很多`：像相簿、lightbox、Dark / Light mode、切換手勢、循環瀏覽這種功能，如果不先把行為規格講清楚，AI 很容易做出看似能跑、但其實不符合需求的版本。
+- `多人協作、跨 session、重構`：spec、plan、acceptance criteria 一旦寫清楚，交接與驗收都會順很多，也比較能保護原本不能壞掉的行為。
+
+我覺得這也是它最值得的地方：它不只是幫你把需求寫漂亮，而是讓未來的實作、測試、驗收和維護都有共同依據。
+
 它不是讓你多寫一份官樣文章，而是讓你先把方向釘住，避免開發過程一路滑坡。
+
+如果想看我把 `plan mode`、`spec kit`、`Mermaid`、`pseudo code` 和這整套工程化思路整理成另一篇完整心得，也可以接著看這篇：[Plan Mode、SpecKit 與 SDD：先把需求問清楚，再讓 AI 開始做](../workflow/plan-mode-spec-kit-and-sdd.md)。
 
 ## 很務實的一句話
 
@@ -164,3 +178,5 @@ AI 很可能會很勤勞地幫你寫出一堆東西，但方向不一定對。
 - `Spec-Driven Development`：偏規格驅動的開發方式
 
 而在現在的 AI Coding 脈絡下，後者真的越來越重要。
+
+如果想看我把這件事放回實際活動心得裡怎麼理解，也可以參考這篇：[不要當 code monkey：我在 GDG Taipei 聽完 Antigravity 與 Spec-Driven Development 的心得](../workflow/android-gdg-taipei.md)。

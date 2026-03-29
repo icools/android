@@ -115,6 +115,8 @@ metadata:
 
 這功能很適合把 Android 團隊內本來散落在 wiki、README、PR comment 裡的隱性流程，收斂成 Android Studio 可以直接調用的 skill。對日常開發來說，重點不是「多一份 prompt」，而是把可重用工作流直接放進 repo，讓 agent 在 IDE 內就能吃到正確脈絡。
 
+如果 focus 不只是 skill，而是 `Agent Mode` 怎麼先規劃、再 review、再動手，我也另外整理了一篇把 `Android Studio`、`Codex`、`Antigravity` 放在一起看的心得：[Plan Mode、SpecKit 與 SDD：先把需求問清楚，再讓 AI 開始做](../../workflow/plan-mode-spec-kit-and-sdd.md)。
+
 ## 參考
 
 - [Extend Agent Mode with skills](https://developer.android.com/studio/preview/skills)
