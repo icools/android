@@ -99,6 +99,12 @@ status: active
 └─ workflow/
 ```
 
+如果某個分類需要放圖片，則在該分類資料夾底下建立 `image/` 子資料夾，例如：
+
+- `kotlin/image/`
+- `tools/image/`
+- `projects/image/`
+
 ## README 的角色
 
 `README.md` 只做以下事情：
@@ -143,6 +149,8 @@ status: active
 - 暫存待整理內容放在 `todo/`
 
 原則上不要把具體內容直接寫進根目錄索引頁，除非只是非常簡短的索引型摘要。
+
+如果文章需要圖片，圖片也應跟著文章分類一起收納在對應資料夾底下的 `image/`，不要直接散落在根目錄。
 
 ## 每篇文章都應使用 frontmatter
 
@@ -205,6 +213,25 @@ status: active
 - 中文檔名
 - 空白檔名
 - 過度簡寫到看不出內容
+
+## 圖片資產規則
+
+如果文章需要圖片，應遵守以下規則：
+
+- 圖片放在對應分類資料夾底下的 `image/` 子資料夾，例如 `tools/image/`、`kotlin/image/`、`projects/image/`
+- 如果我附上的是 PNG 圖片，加入專案前一律先轉成 JPG
+- 圖片檔名使用英文、kebab-case，且要直接反映內容主題
+- 不使用像 `image1.png`、`final-final.png`、`screenshot-2.png` 這種沒有意義的命名
+- 同一篇文章如果有多張圖片，檔名應維持同一主題前綴，方便搜尋與整理
+- 文章引用圖片時，應優先使用對應分類自己的 `image/` 路徑
+
+例如：
+
+- `kotlin/image/typealias-illustrated-guide-home.jpg`
+- `kotlin/image/typealias-null-safety-chapter.jpg`
+- `tools/image/maestro-flow-example.jpg`
+
+不需要為每個分類預先建立空的 `image/`，但只要該分類開始使用圖片，就應照這個規則收納。
 
 ## 內容撰寫原則
 
@@ -274,9 +301,10 @@ status: active
 1. 決定正確分類。
 2. 建立對應資料夾內的新文章。
 3. 補齊 frontmatter。
-4. 依文章類型套用適合的內容結構。
-5. 更新對應的根目錄索引頁。
-6. 如果有需要，再視情況微調 `README.md` 的一句式介紹。
+4. 如果文章有附圖，建立或使用該分類底下的 `image/`，並把圖片整理成有意義檔名的 JPG。
+5. 依文章類型套用適合的內容結構。
+6. 更新對應的根目錄索引頁。
+7. 如果有需要，再視情況微調 `README.md` 的一句式介紹。
 
 ## 自動分類規則
 
@@ -318,6 +346,7 @@ status: active
 - 優先依照本文件決定文章放置位置
 - 自動補上 frontmatter
 - 自動更新對應的根目錄索引頁
+- 如果我有附上 PNG 圖片，先轉成 JPG，再放進正確分類底下的 `image/`
 - 不要把所有內容都塞進 `README.md`
 - 工具與專案文章盡量附上官方來源
 - 保持這個知識庫的語氣偏向個人實戰筆記，而不是制式百科整理

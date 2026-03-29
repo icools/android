@@ -15,6 +15,12 @@ status: active
 
 這一頁主要整理 Kotlin 相關筆記入口，內容會放在 `kotlin/`。
 
+## 目前文章
+
+- [Typealias Kotlin 學習網站推薦]({{ '/kotlin/typealias-kotlin-learning-site/' | relative_url }}) - 一個很適合直接閱讀英文原文的 Kotlin 學習網站，用圖像化、故事化與非常口語的方式拆解語法與觀念。
+
+## 之後想補的主題
+
 - 基本語法速查
 - null safety
 - scope functions
