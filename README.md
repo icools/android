@@ -1,12 +1,13 @@
 ---
-title: Android 開發工具與心得筆記
+title: 個人技術筆記與 Android / AI 知識庫
 tags:
   - android
+  - ai
   - notes
   - tools
   - kotlin
   - codex
-desc: 個人的 Android 開發知識庫，整理工具、除錯、效能、Kotlin 與工作流程筆記，內容由 Codex 協助產生與修改。
+desc: 個人的技術知識庫，整理 Android 與 AI 相關工具、流程、除錯、效能、Kotlin 與工作方式，內容由 Codex 協助產生與修改。
 author: icools
 date: 2026-03-29
 source: local
@@ -15,11 +16,11 @@ status: active
 
 > 本專案內容完全是我透過 Codex 協助產生與修改，並會持續透過 Codex 協助整理與更新。
 
-# Android 開發工具與心得筆記
+# 個人技術筆記與 Android / AI 知識庫
 
-這個專案是我自己的 Android 開發筆記倉庫。
+這個專案是我自己的技術筆記倉庫。
 
-我會把平常開發 Android 時用到的工具、除錯流程、效能觀察方式、學到的技巧、踩過的坑，以及一些還沒完全整理好的內容，慢慢累積在這裡。細節不會全部堆在 `README.md`，而是分散到各分類索引頁與資料夾內容中。
+我會把平常開發 Android、使用 AI 工具、整理工作流時的心得、踩過的坑、觀察與筆記，慢慢累積在這裡。細節不會全部堆在 `README.md`，而是分散到各分類索引頁與資料夾內容中。
 
 內容撰寫、分類、命名與索引更新規範，統一以 [`CONTENT_CHARTER.md`](CONTENT_CHARTER.md) 為主。
 
@@ -32,6 +33,7 @@ status: active
 ├─ README.md
 ├─ todo.md
 ├─ kotlin.md
+├─ ai.md
 ├─ tools.md
 ├─ projects.md
 ├─ debugging.md
@@ -39,6 +41,7 @@ status: active
 ├─ workflow.md
 ├─ todo/
 ├─ kotlin/
+├─ ai/
 ├─ tools/
 ├─ projects/
 ├─ debugging/
@@ -55,6 +58,10 @@ status: active
 ### Kotlin [`kotlin.md`](kotlin.md)
 
 放 Kotlin 語法、實務寫法與 Android 開發中的常見用法整理。
+
+### AI [`ai.md`](ai.md)
+
+放平常使用的 AI 工具、模型平台、LLM 概念、content engineering 與 AI workflow 筆記。
 
 ### Tools [`tools.md`](tools.md)
 

@@ -1,20 +1,21 @@
 ---
-title: Android 筆記庫內容憲章
+title: 個人技術筆記庫內容憲章
 tags:
   - android
+  - ai
   - charter
   - content
   - writing
   - codex
   - copilot
-desc: 定義此 Android 筆記專案的內容撰寫、分類、命名、索引更新與格式規範，作為未來新增文章時的最高準則。
+desc: 定義此個人技術筆記專案的內容撰寫、分類、命名、索引更新與格式規範，作為未來新增文章時的最高準則。
 author: icools
 date: 2026-03-29
 source: local
 status: active
 ---
 
-# Android 筆記庫內容憲章
+# 個人技術筆記庫內容憲章
 
 這份文件是這個專案的內容規範與維護準則。
 
@@ -56,7 +57,7 @@ status: active
 
 ## 專案定位
 
-這個專案是一個以 Markdown 為主的 Android 開發知識庫。
+這個專案是一個以 Markdown 為主的個人技術知識庫。
 
 內容會聚焦在：
 
@@ -65,6 +66,8 @@ status: active
 - 除錯與問題定位
 - 效能分析與優化觀察
 - Kotlin 語法與實務寫法
+- AI 工具使用習慣與工作流
+- 模型平台、LLM 基礎概念與 content engineering
 - 值得研究的 Android app / 開源專案
 - 尚未完全整理完成的待消化內容
 
@@ -85,6 +88,7 @@ status: active
 ├─ CONTENT_CHARTER.md
 ├─ todo.md
 ├─ kotlin.md
+├─ ai.md
 ├─ tools.md
 ├─ projects.md
 ├─ debugging.md
@@ -92,6 +96,7 @@ status: active
 ├─ workflow.md
 ├─ todo/
 ├─ kotlin/
+├─ ai/
 ├─ tools/
 ├─ projects/
 ├─ debugging/
@@ -123,6 +128,7 @@ status: active
 
 - `todo.md`
 - `kotlin.md`
+- `ai.md`
 - `tools.md`
 - `projects.md`
 - `debugging.md`
@@ -142,6 +148,7 @@ status: active
 
 - 工具介紹放在 `tools/`
 - Kotlin 筆記放在 `kotlin/`
+- AI 工具、平台、LLM 與 content engineering 筆記放在 `ai/`
 - 專案介紹放在 `projects/`
 - 除錯主題放在 `debugging/`
 - 效能主題放在 `performance/`
@@ -151,6 +158,30 @@ status: active
 原則上不要把具體內容直接寫進根目錄索引頁，除非只是非常簡短的索引型摘要。
 
 如果文章需要圖片，圖片也應跟著文章分類一起收納在對應資料夾底下的 `image/`，不要直接散落在根目錄。
+
+## AI 分類規則
+
+`ai/` 是這個專案裡用來整理 AI 相關主題的主分類。
+
+它可以再往下細分成子索引與子資料夾，例如：
+
+- `ai/openai/`
+- `ai/google/`
+- `ai/mistral/`
+- `ai/llm/`
+- `ai/content-engineering/`
+- `ai/tools/`
+
+這一層主要用來整理：
+
+- OpenAI 工具與使用習慣
+- Google AI 生態工具與平台
+- Mistral 相關工具與模型筆記
+- LLM 基礎概念，例如 prompt、token、function calling
+- content engineering，例如 skill、prompt asset、可重用上下文
+- AI 工具整合，例如 n8n、ElevenLabs、OpenClaw 等
+
+如果內容主要是在寫 AI 工具、AI 平台、模型概念或 AI 工作流，就應優先歸類到 `ai/`。
 
 ## 每篇文章都應使用 frontmatter
 
@@ -311,6 +342,7 @@ status: active
 新增文章時，應優先依內容性質自動分類：
 
 - 工具介紹類 -> `tools/` 與 `tools.md`
+- AI 工具 / AI 平台 / LLM 概念 / content engineering 類 -> `ai/` 與 `ai.md`
 - Android app / 開源專案介紹 -> `projects/` 與 `projects.md`
 - Kotlin 語法 / 實務類 -> `kotlin/` 與 `kotlin.md`
 - 除錯排查類 -> `debugging/` 與 `debugging.md`
@@ -346,6 +378,7 @@ status: active
 - 優先依照本文件決定文章放置位置
 - 自動補上 frontmatter
 - 自動更新對應的根目錄索引頁
+- 若屬於 `ai/` 主題，應同步更新 `ai.md`，必要時也更新對應的 AI 子索引
 - 如果我有附上 PNG 圖片，先轉成 JPG，再放進正確分類底下的 `image/`
 - 不要把所有內容都塞進 `README.md`
 - 工具與專案文章盡量附上官方來源
