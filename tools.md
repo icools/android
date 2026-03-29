@@ -17,6 +17,7 @@ status: active
 
 - [`scrcpy`](tools/scrcpy.md) - 一個可以用來控制 Android 裝置的實用工具，我最常拿它做螢幕 mirror、電腦操作真機，以及日常測試時的視覺化控制。
 - [`maestro`](tools/maestro.md) - 一套很適合做 UI 自動化與 smoke test 的工具，能用可讀性高的 YAML 方式描述 App 操作流程。
+- [`shizuku`](tools/shizuku.md) - 一個很關鍵的 Android 權限橋接工具，讓一般 App 能在無 Root 情況下透過 adb / Binder 路線使用部分系統級能力，特別適合進階工具、測試輔助與自動化場景。
 - [`jadx-ui`](tools/jadx-ui.md) - 很適合拿來查看 APK、反編譯程式碼、搜尋 class 與資源，是理解陌生 Android app 結構時很好用的工具。
 - [`simvyn`](tools/simvyn.md) - 一個整合 Android / iOS 裝置控制的 dashboard + CLI，我目前最看重的是它很適合長成 AI 可操作的測試與除錯控制層。
 
