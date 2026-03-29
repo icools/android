@@ -16,7 +16,7 @@ status: active
 
 # TranslateGemma
 
-`TranslateGemma` 是 Google 以 `Gemma 3` 為基底做出的翻譯專用模型家族。官方 `2025-07-31` 的介紹把它定位成 open translation models，目前提供 `4B`、`12B`、`27B` 三種尺寸，主打 `55` 種語言翻譯。
+`TranslateGemma` 是 Google 以 `Gemma 3` 為基底做出的翻譯專用模型家族。Google 在 `2026-01-15` 公布時，把它定位成 open translation models，目前提供 `4B`、`12B`、`27B` 三種尺寸，主打 `55` 種語言翻譯。
 
 ## 它和一般 Gemma 3 的差別
 
@@ -53,5 +53,5 @@ Google 公開的重點有幾個：
 ## 參考
 
 - [TranslateGemma: A new family of open translation models](https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/)
-- [TranslateGemma technical report](https://arxiv.org/abs/2508.05745)
+- [TranslateGemma technical report](https://arxiv.org/abs/2601.09012)
 - [Gemma 3 model overview](https://ai.google.dev/gemma/docs/core)
