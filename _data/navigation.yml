@@ -13,6 +13,8 @@ primary:
     url: /kotlin/
   - title: Rust
     url: /rust/
+  - title: Draft
+    url: /draft/
   - title: Workflow
     url: /workflow/
   - title: Todo
@@ -43,6 +45,10 @@ library:
     url: /rust/
     kicker: Language
     description: 整理 Rust 在 Android 上的整合方式、框架選型、NDK 實作與導入判斷。
+  - title: Draft
+    url: /draft/
+    kicker: Staging
+    description: 收納 AI 對談摘要、草稿心得與待整理內容，之後再交給 Codex 分類歸檔。
   - title: Workflow
     url: /workflow/
     kicker: Process
