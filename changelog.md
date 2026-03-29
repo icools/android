@@ -5,12 +5,26 @@ tags:
   - changelog
 desc: 知識庫變更紀錄，以時間軸方式整理每日的新增與更新內容。
 author: icools
-date: 2026-03-29
+date: 2026-03-30
 source: local
 status: active
 ---
 
 # Changelog
+
+## 2026-03-30：Google AI Studio 章節補強
+
+今天把 `Google AI Studio` 從原本索引裡的一個關鍵字，擴成一篇正式文章，重點放在它現在如何從單純 playground 演進成可以串 `Live API`、`Build mode`、`GitHub`、`Firebase` 與 `Cloud Run` 的 AI 建置工作流。
+
+### 重點更新
+
+- 新增 `Google AI Studio` 正式頁面，整理介面拆解、操作流程與平台定位
+- 補充 `Firebase Studio` sunset 的明確日期：`2026-03-19` 公告、`2026-06-22` 停止新 workspace、`2027-03-22` 關閉
+- 釐清 `Google AI Studio`、`Google Antigravity`、`Firebase Studio` 三者分工
+- 補充 `Build mode`、`Live API`、`Generate Media`、`GitHub`、`Firebase`、`Cloud Run` 的串接方式
+- 更新 `AI` 與 `Google AI` 索引，並把新頁面連結改成 GitHub Pages 友善寫法
+
+---
 
 ## 2026-03-29：知識庫建立日
 
