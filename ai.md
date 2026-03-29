@@ -16,8 +16,8 @@ status: active
 
 這一頁整理我平常使用的 AI 工具、平台、概念與工作方式，會再往下分成不同子分類。
 
-- [OpenAI](ai/openai/index.md) - 整理 `Codex`、`Codex CLI`、`ChatGPT` 與其他 OpenAI 相關工具、習慣與工作流。
-- [Google](ai/google/index.md) - 整理 `Gemini CLI`、`Gemini`、`AI Studio`、`Google Colab`、`Google Cloud IDE`、`Google Anti-gravity`、`Android Studio Skills`、`Vertex AI`、`NotebookLM` 等 Google AI 工具與平台。
+- [OpenAI](ai/openai/index.md) - 整理 `Codex`、`Codex CLI`、`ChatGPT`（Code Interpreter、Canvas、Connectors、Work with Apps、Desktop、語音輸入）與其他 OpenAI 相關工具、習慣與工作流。
+- [Google](ai/google/index.md) - 整理 `Gemini CLI`、`Gemini Chat`（Canvas、Deep Research、Veo 3.1、Nano Banana 圖卡、Gem）、`AI Studio`、`Google Colab`、`Google Cloud IDE`、`Google Anti-gravity`、`Android Studio Skills`、`Vertex AI`、`NotebookLM` 等 Google AI 工具與平台。
 - [Mistral](ai/mistral/index.md) - 整理 Mistral 相關模型、工具、使用經驗與觀察。
 - [LLM](ai/llm/index.md) - 整理 function calling、prompt、token 等 LLM 基礎概念與實務筆記。
 - [Content Engineering](ai/content-engineering/index.md) - 整理 skill、可重用上下文、內容設計與 AI 協作寫法。

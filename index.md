@@ -28,8 +28,21 @@ mindmap
     AI
       OpenAI
         Codex CLI
+        ChatGPT
+          Code Interpreter
+          Canvas
+          Connectors / Apps
+          Work with Apps
+          Desktop
+          語音輸入
       Google
         Gemini CLI
+        Gemini Chat
+          Canvas / 簡報
+          Deep Research
+          Veo 3.1
+          Nano Banana 圖卡
+          Gem
         Android Studio Skills
         Google Colab
       Mistral
@@ -60,6 +73,9 @@ mindmap
       BDD / TDD
       DDD
       UML / Mermaid
+        Kotlin + UML
+        LLM 整合產圖
+        Gerador UML Plugin
     Workflow
       GDG Taipei
     Draft
