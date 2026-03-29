@@ -1,6 +1,6 @@
 ---
 title: Clean Code
-stags:
+tags:
   - books
   - clean-code
   - readability
