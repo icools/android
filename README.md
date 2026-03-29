@@ -6,8 +6,9 @@ tags:
   - notes
   - tools
   - kotlin
+  - rust
   - codex
-desc: 個人的技術知識庫，整理 Android 與 AI 相關工具、流程、除錯、效能、Kotlin 與工作方式，內容由 Codex 協助產生與修改。
+desc: 個人的技術知識庫，整理 Android、Rust、AI 相關工具、流程、除錯、效能、Kotlin 與工作方式，內容由 Codex 協助產生與修改。
 author: icools
 date: 2026-03-29
 source: local
@@ -33,6 +34,7 @@ status: active
 ├─ README.md
 ├─ todo.md
 ├─ kotlin.md
+├─ rust.md
 ├─ ai.md
 ├─ tools.md
 ├─ projects.md
@@ -41,6 +43,7 @@ status: active
 ├─ workflow.md
 ├─ todo/
 ├─ kotlin/
+├─ rust/
 ├─ ai/
 ├─ tools/
 ├─ projects/
@@ -58,6 +61,10 @@ status: active
 ### Kotlin [`kotlin.md`](kotlin.md)
 
 放 Kotlin 語法、實務寫法與 Android 開發中的常見用法整理。
+
+### Rust [`rust.md`](rust.md)
+
+放 Rust 在 Android 上的整合方式、NDK / JNI、框架選型與導入判斷。
 
 ### AI [`ai.md`](ai.md)
 

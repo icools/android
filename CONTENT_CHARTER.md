@@ -66,6 +66,7 @@ status: active
 - 除錯與問題定位
 - 效能分析與優化觀察
 - Kotlin 語法與實務寫法
+- Rust 與 Android 的整合、NDK 與跨平台開發方式
 - AI 工具使用習慣與工作流
 - 模型平台、LLM 基礎概念與 content engineering
 - 值得研究的 Android app / 開源專案
@@ -88,6 +89,7 @@ status: active
 ├─ CONTENT_CHARTER.md
 ├─ todo.md
 ├─ kotlin.md
+├─ rust.md
 ├─ ai.md
 ├─ tools.md
 ├─ projects.md
@@ -96,6 +98,7 @@ status: active
 ├─ workflow.md
 ├─ todo/
 ├─ kotlin/
+├─ rust/
 ├─ ai/
 ├─ tools/
 ├─ projects/
@@ -128,6 +131,7 @@ status: active
 
 - `todo.md`
 - `kotlin.md`
+- `rust.md`
 - `ai.md`
 - `tools.md`
 - `projects.md`
@@ -148,6 +152,7 @@ status: active
 
 - 工具介紹放在 `tools/`
 - Kotlin 筆記放在 `kotlin/`
+- Rust 與 Android 整合、NDK、JNI、跨平台框架選型放在 `rust/`
 - AI 工具、平台、LLM 與 content engineering 筆記放在 `ai/`
 - 專案介紹放在 `projects/`
 - 除錯主題放在 `debugging/`

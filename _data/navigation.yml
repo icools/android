@@ -11,6 +11,8 @@ primary:
     url: /performance/
   - title: Kotlin
     url: /kotlin/
+  - title: Rust
+    url: /rust/
   - title: Workflow
     url: /workflow/
   - title: Todo
@@ -37,6 +39,10 @@ library:
     url: /kotlin/
     kicker: Language
     description: 集中整理 Kotlin 語法、實務寫法，以及 Android 專案裡常遇到的語言模式。
+  - title: Rust
+    url: /rust/
+    kicker: Language
+    description: 整理 Rust 在 Android 上的整合方式、框架選型、NDK 實作與導入判斷。
   - title: Workflow
     url: /workflow/
     kicker: Process
