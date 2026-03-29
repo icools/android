@@ -21,7 +21,7 @@ status: active
 - [Mistral](ai/mistral/index.md) - 整理 Mistral 相關模型、工具、使用經驗與觀察。
 - [LLM](ai/llm/index.md) - 整理 function calling、prompt、token 等 LLM 基礎概念與實務筆記。
 - [Content Engineering](ai/content-engineering/index.md) - 整理 skill、可重用上下文、內容設計與 AI 協作寫法。
-- [AI Tools](ai/tools/index.md) - 整理 `n8n`、`OpenClaw`、`ElevenLabs` 等 AI 相關工具與整合服務。
+- [AI Tools](ai/tools/index.md) - 整理 `Hugging Face`、`GitHub Copilot`、`LM Studio`、`Ollama`、`n8n`、`OpenClaw`、`ElevenLabs` 等 AI 相關工具與整合服務。
 
 ## 這個分類的定位
 
