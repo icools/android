@@ -55,6 +55,22 @@ status: active
 - 效能資訊怎麼呈現在畫面上
 - Android 端如何接 on-device inference 能力
 
+## 實際測試心得
+
+這個專案不只適合「看架構」，我自己實際從 GitHub source build 跑到手機上之後，覺得它也很適合拿來當成 on-device AI app 的真實排錯樣本。
+
+我原本只是想讓 app 透過 Hugging Face 抓 `Qwen3.5-0.8B-LiteRT`，結果前面先遇到 `Loading model list...` 卡住，後來又看到 `Failed to load model list`。一開始我以為是網路、登入或模型來源問題，最後才確認真正卡住的是本地 allowlist 與 app 版本的對齊。
+
+這次實測最有感的幾個點是：
+
+- 手機裡可能同時有 `com.google.ai.edge.gallery` 和 `com.google.aiedge.gallery` 兩個 package，debug 前一定要先確認自己看到的是哪一個 app
+- `/data/local/tmp/model_allowlist.json` 就算路徑正確，schema 太舊還是會出事，像缺少 `commitHash` 就可能讓資料轉換直接炸掉
+- source build 不只會看單一 allowlist，像我這次 `1.0.11` 版本也得一起補 `/data/local/tmp/model_allowlists/1_0_11.json`
+- 前台畫面顯示的 `Loading model list...` 很像網路慢，但實際上根因可能是 Kotlin 端在解析 allowlist 時先噴錯
+- 這種問題只看畫面很難猜，`adb logcat` 幾乎是必備，因為真正的錯誤通常藏在背景初始化流程裡
+
+對我來說，`Google AI Edge Gallery` 的價值也因此更明確了。它不是只有展示功能而已，還能很具體地幫人理解一個 on-device AI Android app 在模型清單、版本化設定、模型來源和實機除錯上，實際會踩到哪些坑。
+
 ## 適合拿來學什麼
 
 - Android AI App 的產品型態
