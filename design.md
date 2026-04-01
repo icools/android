@@ -28,6 +28,7 @@ status: active
 - [`domain-driven-design-and-design-patterns`](design/domain-driven-design-and-design-patterns.md) - 整理 DDD 與 Design Pattern 的差別、關係與實際定位，避免把兩者混成同一件事。
 - [`paddy-coding-and-behavior-expert`](design/paddy-coding-and-behavior-expert.md) - 整理我想推薦的設計與行為建模學習方向，包含 Coding、DDD、Pattern 與行為專家的觀察。
 - [`uml-mermaid-and-diagram-tools`](design/uml-mermaid-and-diagram-tools.md) - 整理 UML、Mermaid 與其他圖表工具的用途、差異，以及我會怎麼選工具。
+- [`uml-diagram-for-kotlin-design-pattern-examples`](design/uml-diagram-for-kotlin-design-pattern-examples.md) - 我會直接列進必推清單的 Kotlin 設計模式學習資源，用 UML 圖搭配 Kotlin 範例來理解 GoF patterns，真的比只看 code 更容易建立結構感。
 
 ## 之後想補上的主題
 
