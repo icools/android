@@ -16,8 +16,8 @@ status: active
 這一頁整理 OpenAI 相關筆記，詳細文章會放在 `ai/openai/`。
 
 - [Codex CLI](codex-cli.md) - terminal-first 的 coding workflow，適合直接在 repo 裡讀、改、執行與驗證。
+- [Codex Desktop](codex-desktop.md) - 很多 ChatGPT 訂閱戶其實還沒把 Codex 用滿，這篇整理 desktop app、訂閱方案可用範圍，以及它為什麼已經不只是寫 code 工具。
 - [ChatGPT Connect / Apps 生態心得](chatgpt-connect-workflow.md) - 整理我最近實際使用 ChatGPT Apps / Connectors 後的觀察，包含 Google 文件整合、Notion / Gemini / Codex 分工、ClickUp 串接與目前的限制。
-- `Codex`
 
 ## ChatGPT
 
