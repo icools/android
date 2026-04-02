@@ -1,0 +1,47 @@
+深入 JetBrains 骨髓：從 AST/PSI 到 AI 自動生成 Mermaid 架構圖的奇幻旅程
+寫扣寫到懷疑人生？接手前人的「祖傳屎山」時，想畫個 Class Diagram（類別圖）或 Sequence Diagram（循序圖）來通靈，但手刻 UML 實在太浪費生命？
+這篇筆記將帶你潛入 JetBrains IDE（IntelliJ, Android Studio 等）的最底層，解鎖隱藏模式，挖出程式碼的 AST 與 PSI 結構。最後教你怎麼利用這堆冷冰冰的樹狀圖，結合 AI 幫你自動生出漂漂亮亮的 Mermaid 語法！別再當苦力了，讓工具幫你幹活！
+一、程式碼的 X 光片：AST vs. PSI 到底差在哪？
+想讓機器看懂程式碼的「結構」，就得把它拆解成樹狀圖（Tree）。這裡有兩個極度重要但常被搞混的名詞，搞懂它們是你做代碼分析的第一步：
+1. AST (Abstract Syntax Tree, 抽象語法樹) —— 「純骨架」
+核心概念：顧名思義，就是程式碼的邏輯骨架。編譯器在看你的程式碼時，只在乎 if-else、變數宣告、迴圈這些「邏輯」，其他的一概不管。
+特點：極度乾淨俐落。它忽略了你按了幾個空白鍵、空了幾行、寫了什麼幹話註解。
+用途：適合用來做跨語言的邏輯分析，或是編譯器底層的語法解析。
+2. PSI (Program Structure Interface) —— 「血肉完全體」
+核心概念：這是 JetBrains 家族專用的特殊結構。你可以把它當作是 AST 的火力加強版。
+特點：超級龜毛，無比詳細！你在程式碼裡留下的每一滴血汗——包含空白字元、換行、各種註解，全部都會被 PSI 記錄下來變成節點（Node）。
+為什麼需要它？ 試想一下，如果 IDE 在幫你做程式碼重構（Refactoring）或自動排版時只看 AST，那改完之後你的註解跟排版絕對會整個大走鐘。有了 PSI，IDE 才能保證「改動邏輯的同時，版面還是你當初熟悉的樣子」。
+總結：如果 AST 是骨架，那 PSI 就是連皮帶肉帶毛的標本。如果資訊量要最滿、最詳細，找 PSI 就對了。
+二、駭客時間：如何解鎖 JetBrains 的隱藏模式？
+平常這個功能是被官方封印的，畢竟一般開發者沒事不會想看這麼底層的東西。但身為想做自動化工具的硬核玩家，我們可以透過以下步驟把它叫出來：
+開啟自訂屬性設定：在 IDE 上方選單找到 Help -> Edit Custom Properties...。
+寫入內部模式指令：在打開的檔案裡加上這一行魔法咒語：
+idea.is.internal=true
+
+
+重新啟動 IDE：存檔後把 IDE 重開，讓設定生效。
+召喚 PSI Viewer：
+重開後，你會在上方的 Tools 選單裡看到多出一個 Internal Actions。
+路徑通常是：Tools -> Internal Actions -> UI -> PSI Viewer。
+或是直接用全域搜尋（Double Shift），輸入 View PSI Structure 點開。
+見證奇蹟：點開後，右邊或下方就會噴出一大串超級詳細的樹狀結構（Tree）。這就是你的程式碼在 IDE 眼裡的真實模樣。裡面通常還會有 Dump PSI Tree 之類的功能，可以把這包完整的結構匯出成文字檔。
+三、這棵 PSI Tree 能拿來幹嘛？能吃嗎？
+光看 PSI 樹狀圖當然不能吃，但它是你打造各種「自動化開發工具」的地基：
+強大的靜態分析 (Linting)：抓出潛在 bug、揪出哪裡沒有防呆，或是不符合團隊規範的鳥寫法。
+客製化重構腳本：如果你有一千個檔案要改某種特定邏輯，可以用 PSI 分析後寫腳本幫你一鍵大規模修改。
+自製程式碼轉換器：例如把某種語言的特定邏輯，透過分析這棵樹，精準翻譯成另一種語言。
+架構可視化（本篇重點）：把這坨樹狀圖變成人類看懂的 UML 圖。
+⚠️ 鄉民溫馨提示（防坑警告）： PSI Viewer 看得再細，它終究只是「單一檔案的靜態結構」。 它可以告訴你這個 Class 裡有什麼 Method，但 它無法直接告訴你這個 Method 被誰呼叫。如果你要抓 A 呼叫 B、B 呼叫 C 的動態關係（Call Tree），PSI 是生不出來的！這時候請乖乖回頭去用 IDE 內建的 Find Usages 或 Call Hierarchy 功能來補足關聯資訊。
+四、終極殺招：用 AI + PSI 產生 Mermaid 架構圖
+Mermaid 是一種神仙級的工具，用「純文字」就能在 Markdown 裡畫出複雜的流程圖、類別圖和循序圖。我們的最終浪漫，就是寫個工具把「程式碼結構」變成「圖表」：
+實戰 Pipeline 構想：
+第一步：資料萃取 (Data Extraction)
+利用我們剛剛解鎖的工具或寫個 Plugin，把關鍵 Class 的 PSI Tree 倒出來 (Dump PSI)。
+同時，透過腳本抓取 Call Hierarchy 的資訊，釐清 Method 之間的呼叫順序。
+第二步：AI 通靈與規則轉換 (AI Processing)
+把撈出來的 PSI 結構與呼叫順序，整理成清晰的純文字或 JSON 格式。
+將這包資料餵給 AI（例如 Gemini 或 ChatGPT），並下達明確的 Prompt："這是我 Dump 出來的 PSI 結構與 Call Hierarchy，請根據這些節點與互相呼叫的規則，幫我轉譯成正確的 Mermaid 語法來表示 Class Diagram 與 Sequence Diagram。"
+第三步：自動渲染圖表 (Rendering)
+拿到 AI 吐出來的 Mermaid 語法後，直接貼進你的筆記軟體（Obsidian, Notion）或是 GitHub README 裡。
+秒生美圖，潮到出水！
+結語： 與其陷入閱讀冗長程式碼的泥沼，不如跳脫框架，掌握 PSI 結構，再把髒活累活全丟給 AI 處理。這才是現代工程師該有的效率與態度！把省下來的時間拿去喝咖啡、打電動不香嗎？
