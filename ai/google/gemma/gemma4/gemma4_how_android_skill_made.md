@@ -20,6 +20,7 @@ status: active
 
 https://github.com/google-ai-edge/gallery
 
+https://github.com/google-ai-edge/gallery/tree/main/skills#native-skills
 
 
 更精準地說，我會把它描述成：
