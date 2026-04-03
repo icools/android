@@ -1,9 +1,18 @@
-
-
-
+---
+title: Gemma 基本介紹
+tags:
+   - ai
+   - google
+   - gemma
+   - overview
+desc: Gemma 開放權重模型家族的定位，以及它和 Gemini、on-device AI、tool use 之間的關係。
+author: icools
+date: 2026-04-03
+source: local
+status: active
 ---
 
-# Gemini 基本介紹
+# Gemma 基本介紹
 
 Gemini 是 Google 推出的生成式 AI 模型家族，可以用來處理 **文字、圖片、語音、影片、程式碼** 等不同類型的內容。  
 如果講白話一點，它不是只有「聊天機器人」而已，而是一套可以拿來做理解、生成、分析、摘要、工具呼叫，甚至進一步做 agent 的模型系統。

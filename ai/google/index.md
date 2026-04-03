@@ -16,10 +16,16 @@ status: active
 
 這一頁整理 Google AI 相關筆記，詳細文章會放在 `ai/google/`。
 
-- [Google AI Studio]({{ '/ai/google/google-ai-studio/' | relative_url }}) - 現在不只是 prompt playground，而是把 `Chat`、`Stream`、`Generate Media`、`Build`、`GitHub`、`Firebase` 與 `Cloud Run` 串成一條從 idea 到 app 的工作流。
+- [Gemma]({{ '/ai/google/gemma/' | relative_url }}) - Google 開放權重模型家族入口，整理 Gemma 與 Gemma 4 在 on-device AI、tool use 與 Android skill runtime 上的脈絡。
+- [Google AI Studio]({{ '/ai/google/google-ai-studio/' | relative_url }}) - 現在不只是 prompt playground，而是把 `Chat`、`Stream`、`Generate Media`、`Build`、`GitHub` 與 `Firebase` 串成一條從 idea 到 app 的工作流。
 - [Gemini CLI](gemini-cli.md) - 把 Gemini 能力帶進 terminal 工作流，適合查詢、生成與輕量開發輔助。
 - `Vertex AI`
 - `NotebookLM`
+
+## Gemma
+
+- [Gemma 基本介紹]({{ '/ai/google/gemma/gemma/' | relative_url }}) - 先看 Gemma 與 Gemini 的分工，以及它為什麼更適合 edge / on-device 場景。
+- [Gemma 4 索引]({{ '/ai/google/gemma/gemma4/' | relative_url }}) - 集中整理 Gemma 4 的模型定位、function calling、LLM to Action 與 Android Agent Skill 文章。
 
 ## Gemini Chat
 

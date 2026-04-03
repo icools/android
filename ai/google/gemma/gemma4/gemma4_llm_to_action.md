@@ -1,3 +1,18 @@
+---
+title: Gemma 4 與 LLM to Action
+tags:
+    - ai
+    - google
+    - gemma4
+    - workflow
+    - function-calling
+desc: 拆解 Gemma 4 怎麼把 function calling 推進成 agentic workflow，以及模型與 runtime 的責任分工。
+author: icools
+date: 2026-04-03
+source: local
+status: active
+---
+
 最近在看 Gemma 4 的文件時，我最有感的一點，不是它「能不能 function calling」，而是它把整件事往前推成了更完整的 **tool workflow / agentic workflow**。Google 在 Gemma 4 的 model card 裡，直接把它寫成 **原生支援 structured tool use，能啟用 agentic workflows**。這句話的重點，不在於它突然發明了工具呼叫，而是它讓模型更像一個可以主導任務流程的 **agent brain**。
 
 很多人第一次看到這種描述，直覺會問：所以 Gemma 4 是不是已經能自己把所有工具都執行完，不再需要外部 loop？我認為最精準的答案是：**不是模型自己偷偷去執行世界上的動作，而是模型更擅長控制整個決策流程。** 它更會判斷什麼時候該用工具、要叫哪個工具、工具結果回來之後下一步要做什麼，以及什麼時候任務可以結束；但真正把 function、API、WebView、OS action 執行掉的，仍然是外部 app、runtime 或 agent framework。
@@ -205,7 +220,7 @@ flowchart TB
 
 我的答案是：**可以，而且這正是它最有價值的地方。**
 
-![alt text](image.png)
+![App On Demand 示意圖]({{ '/ai/google/gemma/gemma4/image.png' | relative_url }})
 # 結語
 
 如果只用一句話來總結我對 Gemma 4 的看法，我會這樣寫：

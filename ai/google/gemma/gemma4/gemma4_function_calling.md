@@ -1,4 +1,19 @@
-Gemma 4 從 Function Calling 到 LLM to Action：Android 上的 Agent Skill 能力深度解析
+---
+title: Gemma 4 從 Function Calling 到 LLM to Action
+tags:
+  - ai
+  - google
+  - gemma4
+  - function-calling
+  - android
+desc: 從 Google AI Edge Gallery 的 Agent Skill 架構切入，整理 Gemma 4 在 Android 上的 tool workflow 與 agent 能力。
+author: icools
+date: 2026-04-03
+source: local
+status: active
+---
+
+# Gemma 4 從 Function Calling 到 LLM to Action：Android 上的 Agent Skill 能力深度解析
 
 本學習指南旨在深入探討 Google DeepMind 推出之 Gemma 4 模型在行動裝置端（特別是 Android 平台）實現的代理（Agentic）能力。透過 Google AI Edge Gallery 的 SKILL 框架，開發者能將大型語言模型（LLM）從單純的聊天機器人轉化為具備自主行動能力的 Agent。
 

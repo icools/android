@@ -1,4 +1,16 @@
-
+---
+title: Gemma 4 介紹
+tags:
+  - ai
+  - google
+  - gemma4
+  - android
+desc: Gemma 4 的模型定位、多模態能力、tool use 傾向，以及它在 Android 與 edge AI 上的意義。
+author: icools
+date: 2026-04-03
+source: local
+status: active
+---
 
 # Gemma 4 介紹
 
