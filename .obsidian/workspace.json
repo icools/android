@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b2bd0843bffb6f0",
+        "id": "d8efdd3d97009145",
         "type": "tabs",
         "children": [
           {
-            "id": "752c4c5d7e1e2d51",
+            "id": "954d1235bcaa7e8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft/KeywordSearchDiagrams.md",
-                "mode": "preview",
-                "source": true
+                "file": "draft/litert-lm.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "KeywordSearchDiagrams"
+              "title": "litert-lm"
             }
           }
         ]
@@ -183,33 +183,34 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "752c4c5d7e1e2d51",
+  "active": "954d1235bcaa7e8f",
   "lastOpenFiles": [
-    "draft/chatgpt-connect-ecosystem-summary.md",
-    "draft/KeywordSearchDiagrams.md",
     "draft/nerd.md",
+    "draft/litert-lm.md",
+    "draft/KeywordSearchDiagrams.md",
+    "draft/how_to_make_markdown_file_with_notebooklm_pptx_file_image.md",
+    "draft/gemma4_restaurant_roulette_skill_article.md",
+    "draft/gemma_4_restaurant_roulette_medium_article.md",
+    "draft/chatgpt-connect-ecosystem-summary.md",
     "draft/ast_psi.md",
-    "ai/openai/codex-desktop.md",
-    "design/uml-diagram-for-kotlin-design-pattern-examples.md",
-    "books/clean-code.md",
-    "books/clean-architecture.md",
-    "books/beautiful-code.md",
+    "draft/android17_ai_app_function.md",
+    "draft/about_codex_usage.md",
+    "draft/深入JetBrains骨髓：AST與PSI解析及Mermaid自動產圖指南.md",
+    "draft/工程師畫圖神器大亂鬥：Mermaid vs Draw.io vs 傳統 UML.md",
+    "draft/ChatGPT Image 2026年4月3日 下午11_16_34.png",
+    "design/spec-driven-development.md",
+    "design/paddy-coding-and-behavior-expert.md",
+    "design/domain-driven-design-and-design-patterns.md",
     "design/bdd-and-tdd.md",
-    "ai.md",
-    "404.md",
-    "android.md",
-    "books.md",
-    "performance.md",
+    "books/clean-code.md",
     "android/gemini-in-android-studio.md",
-    "android/api/worker.md",
     "android/api/viewmodel-flow.md",
-    "android/api/usecase.md",
-    "android/api/repository.md",
+    "android/api/accessibility-api.md",
+    "android/api/datasource.md",
+    "android/api/hilt.md",
+    "android/api/index.md",
     "android/api/mvvm.md",
-    "debugging.md",
-    "index.md",
-    "todo.md",
-    "rust.md",
-    "README.md"
+    "android/api/repository.md",
+    "android/api/usecase.md"
   ]
 }
