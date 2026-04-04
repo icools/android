@@ -9,6 +9,17 @@ When a new markdown file is added or an existing one is modified, use this skill
 
 ## Step-by-Step Instructions
 
+0. **Draft Management & Growth Check (Pre-processing)**
+   - If the file is located in the `draft/` folder:
+     - **Check length**: Count the lines in the file. If it has **fewer than 5 lines**, ignore it (do not process or move).
+     - **Auto-Categorize**: If it has 5 or more lines, analyze its content to determine the best destination folder:
+       - `ai/openai/`: ChatGPT, GPT-4, Codex, etc.
+       - `ai/google/`: Gemini, Gemma, Android Studio AI, etc.
+       - `android/api/`: Android framework, Hilt, Worker, Compose, etc.
+       - `tools/`: Testing, Decompile, CLI tools, etc.
+       - `design/`: UI/UX, Architecture, Diagrams, etc.
+     - **Move file**: Rename the file to a descriptive slug (e.g., `nerd.md` -> `nereid-plugin-architecture.md`) and move it to the target directory.
+
 1. **Check for Frontmatter Properties**
    - Ensure the markdown file begins with a YAML block (enclosed in `---`).
    - The block MUST contain at least:
@@ -34,3 +45,10 @@ When a new markdown file is added or an existing one is modified, use this skill
 5. **Final Clean-up**
    - Ensure the layout is using `default` or the standard repo layout.
    - Verify that all relative links within the document are correct.
+
+6. **Image Optimization (PNG to WebP/JPEG)**
+   - Identify all `.png` image links in the markdown.
+   - **Convert**: Use the `sips` tool (on macOS) to convert them to `.webp` format for better performance on GitHub Pages:
+     `sips -s format webp input.png --out output.webp`
+   - **Link Update**: Update the markdown code to point to the new `.webp` file extension.
+   - **Cleanup**: Delete the original `.png` if it is no longer needed.

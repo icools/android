@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft/litert-lm.md",
+                "file": "draft/gemma4_restaurant_roulette_skill_article.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "litert-lm"
+              "title": "gemma4_restaurant_roulette_skill_article"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "954d1235bcaa7e8f",
   "lastOpenFiles": [
-    "draft/nerd.md",
-    "draft/litert-lm.md",
-    "draft/KeywordSearchDiagrams.md",
+    "assets/images",
     "draft/how_to_make_markdown_file_with_notebooklm_pptx_file_image.md",
+    "draft/litert-lm.md",
+    "draft/nerd.md",
+    "draft/KeywordSearchDiagrams.md",
     "draft/gemma4_restaurant_roulette_skill_article.md",
     "draft/gemma_4_restaurant_roulette_medium_article.md",
     "draft/chatgpt-connect-ecosystem-summary.md",
@@ -210,7 +211,6 @@
     "android/api/hilt.md",
     "android/api/index.md",
     "android/api/mvvm.md",
-    "android/api/repository.md",
-    "android/api/usecase.md"
+    "android/api/repository.md"
   ]
 }
