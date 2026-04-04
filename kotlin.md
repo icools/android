@@ -6,7 +6,7 @@ tags:
   - kotlin
 desc: Kotlin 語法、實務寫法與 Android 常見用法索引頁。
 author: icools
-date: 2026-03-29
+date: 2026-04-04
 source: local
 status: active
 ---
@@ -23,6 +23,7 @@ status: active
 - [Kotlin Playground 線上練習平台]({{ '/kotlin/kotlin-playground/' | relative_url }}) - 可以直接在瀏覽器撰寫、執行與分享 Kotlin 程式碼，拿來快速驗證語法、小範例或教學示範都很方便。
 - [Typealias Kotlin 學習網站推薦]({{ '/kotlin/typealias-kotlin-learning-site/' | relative_url }}) - 一個很適合直接閱讀英文原文的 Kotlin 學習網站，用圖像化、故事化與非常口語的方式拆解語法與觀念。
 - [KotlinErrorHandleSample 錯誤處理筆記]({{ '/kotlin/kotlin-error-handle-sample/' | relative_url }}) - 我自己長期整理的 private repo 主題介紹，聚焦在 Kotlin / Android 各種錯誤處理方式，包含 `try-catch`、`Result`、Arrow 風格與 `sealed class` 錯誤建模。
+- [libKTX / libGDX Kotlin 遊戲開發筆記]({{ '/kotlin/libktx-and-libgdx/' | relative_url }}) - Kotlin 在遊戲開發生態裡的一條有趣支線，適合想看看 `libGDX` 和 `KTX` 能做到什麼的人先入門。
 
 ## 之後想補的主題
 

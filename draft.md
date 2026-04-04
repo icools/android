@@ -7,7 +7,7 @@ tags:
   - workflow
 desc: 收納 AI 對談摘要、整理心得與後續待分類內容的草稿區索引頁。
 author: icools
-date: 2026-03-29
+date: 2026-04-04
 source: local
 status: active
 ---
@@ -34,4 +34,6 @@ status: active
 
 ## 目前草稿
 
-- [關於我如何使用 Codex 作為工程工作台](draft/about_codex_usage.md) - 記錄我怎麼看待 `Codex`，以及它在工程工作流、文件整理與長流程任務中的角色。
+目前 `draft/` 底下暫時沒有待整理的 Markdown 草稿。
+
+如果之後我又把新的對談摘要、臨時筆記或工具觀察先丟進 `draft/`，再交給 `Codex` 做分類、補 frontmatter、搬圖與索引整理即可。

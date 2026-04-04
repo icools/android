@@ -12,7 +12,7 @@ tags:
   - mermaid
 desc: 軟體設計、規格驅動、測試思維、DDD、Design Pattern 與圖表工具整理索引頁。
 author: icools
-date: 2026-03-29
+date: 2026-04-04
 source: local
 status: active
 ---
@@ -29,6 +29,7 @@ status: active
 - [`paddy-coding-and-behavior-expert`](design/paddy-coding-and-behavior-expert.md) - 整理我想推薦的設計與行為建模學習方向，包含 Coding、DDD、Pattern 與行為專家的觀察。
 - [`uml-mermaid-and-diagram-tools`](design/uml-mermaid-and-diagram-tools.md) - 整理 UML、Mermaid 與其他圖表工具的用途、差異，以及我會怎麼選工具。
 - [`uml-diagram-for-kotlin-design-pattern-examples`](design/uml-diagram-for-kotlin-design-pattern-examples.md) - 我會直接列進必推清單的 Kotlin 設計模式學習資源，用 UML 圖搭配 Kotlin 範例來理解 GoF patterns，真的比只看 code 更容易建立結構感。
+- [`Umbrello UML 工具介紹`](design/umbrello-uml-tool.md) - 一套免費開源的 GUI UML 工具，適合需要拖拉 class diagram、sequence diagram，或想試試 code 匯入成圖的人。
 
 ## 之後想補上的主題
 
