@@ -11,11 +11,19 @@ tags:
 desc: DroidRunScript 是一個把 LM Studio、本地模型、Python 與 ADB 串起來的 Android 手機自動操作實驗工具。
 author: icools
 date: 2026-03-29
+utl: https://github.com/droidrun/droidrun
 source: local
 status: active
 ---
 
 # DroidRunScript
+
+## News 
+
+Update🚨: Now you can run tasks directly on your mobile device with Droidrun's portal APK. 
+
+
+https://x.com/droid_run/status/2040100261666926661
 
 ## 工具簡介
 
