@@ -42,8 +42,9 @@ status: active
 ├─ performance.md
 ├─ workflow.md
 ├─ todo/
-├─ kotlin/
-├─ rust/
+├─ coding/
+│  ├─ kotlin/
+│  └─ rust/
 ├─ ai/
 ├─ tools/
 ├─ projects/
@@ -60,11 +61,11 @@ status: active
 
 ### Kotlin [`kotlin.md`](kotlin.md)
 
-放 Kotlin 語法、實務寫法與 Android 開發中的常見用法整理。
+放 Kotlin 語法、實務寫法與 Android 開發中的常見用法整理，實際文章會放在 `coding/kotlin/`。
 
 ### Rust [`rust.md`](rust.md)
 
-放 Rust 在 Android 上的整合方式、NDK / JNI、框架選型與導入判斷。
+放 Rust 在 Android 上的整合方式、NDK / JNI、框架選型與導入判斷，實際文章會放在 `coding/rust/`。
 
 ### AI [`ai.md`](ai.md)
 

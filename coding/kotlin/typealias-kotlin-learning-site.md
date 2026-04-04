@@ -25,7 +25,7 @@ status: active
 如果可以的話，我會很建議直接看英文原文。它的英文其實非常好懂，敘述節奏也很友善，不會有那種只看官方規格、但腦中還是沒有畫面的感覺。
 
 <figure>
-  <img src="{{ '/kotlin/image/typealias-illustrated-guide-home.jpg' | relative_url }}" alt="Typealias Illustrated Guide 首頁截圖">
+  <img src="{{ '/coding/kotlin/image/typealias-illustrated-guide-home.jpg' | relative_url }}" alt="Typealias Illustrated Guide 首頁截圖">
   <figcaption>Typealias 的 <code>Kotlin: An Illustrated Guide</code> 首頁，會直接整理章節、翻譯進度與程式碼列表。</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ status: active
 這種寫法的好處是，你看完之後不只知道語法長什麼樣子，而是真的會比較理解 Kotlin 想幫你避免什麼問題。
 
 <figure>
-  <img src="{{ '/kotlin/image/typealias-null-safety-chapter.jpg' | relative_url }}" alt="Typealias Nulls and Null Safety 章節截圖">
+  <img src="{{ '/coding/kotlin/image/typealias-null-safety-chapter.jpg' | relative_url }}" alt="Typealias Nulls and Null Safety 章節截圖">
   <figcaption><code>Nulls and Null Safety</code> 章節用插圖和情境故事拆解 Kotlin null safety，是很典型也很有代表性的 Typealias 風格。</figcaption>
 </figure>
 

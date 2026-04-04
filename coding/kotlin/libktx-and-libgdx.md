@@ -24,7 +24,7 @@ status: active
 如果我之後真的想用 Kotlin 試一些遊戲型 side project，這會是值得重新打開來看的技術組合。
 
 <figure>
-  <img src="{{ '/kotlin/image/libktx-home.jpg' | relative_url }}" alt="libKTX 官方網站首頁截圖">
+  <img src="{{ '/coding/kotlin/image/libktx-home.jpg' | relative_url }}" alt="libKTX 官方網站首頁截圖">
   <figcaption>libKTX 官網會整理 Kotlin 對 libGDX 的支援模組與文件，當成入口很適合。</figcaption>
 </figure>
 

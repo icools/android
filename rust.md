@@ -6,18 +6,18 @@ tags:
   - rust
 desc: Rust 與 Android 整合方式、框架選型與實務導入筆記索引頁。
 author: icools
-date: 2026-03-29
+date: 2026-04-05
 source: local
 status: active
 ---
 
 # Rust
 
-這一頁主要整理 Rust 在 Android 上的開發方式、框架選型與導入建議，內容會放在 `rust/`。
+這一頁主要整理 Rust 在 Android 上的開發方式、框架選型與導入建議，內容會放在 `coding/rust/`。
 
 ## 目前文章
 
-- [使用 Rust 開發 Android 應用程式的完整介紹]({{ '/rust/rust-for-android-overview/' | relative_url }}) - 整理 Rust 在 Android 上的三種主要路線：NDK 原生模組整合、跨平台 GUI／WebView 框架，以及以 Rust 為核心邏輯的混合式架構，並附上優缺點與官方來源。
+- [使用 Rust 開發 Android 應用程式的完整介紹]({{ '/coding/rust/rust-for-android-overview/' | relative_url }}) - 整理 Rust 在 Android 上的三種主要路線：NDK 原生模組整合、跨平台 GUI／WebView 框架，以及以 Rust 為核心邏輯的混合式架構，並附上優缺點與官方來源。
 
 ## 之後想補的主題
 

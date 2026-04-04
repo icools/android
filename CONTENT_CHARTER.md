@@ -121,8 +121,9 @@ status: active
 ├─ performance.md
 ├─ workflow.md
 ├─ todo/
-├─ kotlin/
-├─ rust/
+├─ coding/
+│  ├─ kotlin/
+│  └─ rust/
 ├─ ai/
 ├─ tools/
 ├─ projects/
@@ -133,7 +134,7 @@ status: active
 
 如果某個分類需要放圖片，則在該分類資料夾底下建立 `image/` 子資料夾，例如：
 
-- `kotlin/image/`
+- `coding/kotlin/image/`
 - `tools/image/`
 - `projects/image/`
 
@@ -194,8 +195,8 @@ status: active
 實際文章應放在對應資料夾中，例如：
 
 - 工具介紹放在 `tools/`
-- Kotlin 筆記放在 `kotlin/`
-- Rust 與 Android 整合、NDK、JNI、跨平台框架選型放在 `rust/`
+- Kotlin 筆記放在 `coding/kotlin/`
+- Rust 與 Android 整合、NDK、JNI、跨平台框架選型放在 `coding/rust/`
 - AI 工具、平台、LLM 與 content engineering 筆記放在 `ai/`
 - 專案介紹放在 `projects/`
 - 除錯主題放在 `debugging/`
@@ -299,7 +300,7 @@ status: active
 
 如果文章需要圖片，應遵守以下規則：
 
-- 圖片放在對應分類資料夾底下的 `image/` 子資料夾，例如 `tools/image/`、`kotlin/image/`、`projects/image/`
+- 圖片放在對應分類資料夾底下的 `image/` 子資料夾，例如 `tools/image/`、`coding/kotlin/image/`、`projects/image/`
 - 只處理 Markdown 內引用的本地圖片資產，不自動下載遠端圖片網址
 - 如果我附上的是 PNG 圖片，加入專案前一律先轉成 JPG
 - JPG 壓縮率預設使用 60%
@@ -310,8 +311,8 @@ status: active
 
 例如：
 
-- `kotlin/image/typealias-illustrated-guide-home.jpg`
-- `kotlin/image/typealias-null-safety-chapter.jpg`
+- `coding/kotlin/image/typealias-illustrated-guide-home.jpg`
+- `coding/kotlin/image/typealias-null-safety-chapter.jpg`
 - `tools/image/maestro-flow-example.jpg`
 
 不需要為每個分類預先建立空的 `image/`，但只要該分類開始使用圖片，就應照這個規則收納。
@@ -450,7 +451,7 @@ status: active
 - 工具介紹類 -> `tools/` 與 `tools.md`
 - AI 工具 / AI 平台 / LLM 概念 / content engineering 類 -> `ai/` 與 `ai.md`
 - Android app / 開源專案介紹 -> `projects/` 與 `projects.md`
-- Kotlin 語法 / 實務類 -> `kotlin/` 與 `kotlin.md`
+- Kotlin 語法 / 實務類 -> `coding/kotlin/` 與 `kotlin.md`
 - 除錯排查類 -> `debugging/` 與 `debugging.md`
 - 效能觀察類 -> `performance/` 與 `performance.md`
 - 工作流 / checklist / 流程類 -> `workflow/` 與 `workflow.md`
