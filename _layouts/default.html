@@ -100,7 +100,8 @@
               {% for child in sorted_pages %}
                 {% assign is_child = false %}
                 {% if page.name == 'index.md' and page.dir != '/' %}
-                  {% if child.dir == page.dir and child.path != page.path %}
+                  {% assign folder_path = page.dir | remove_first: '/' %}
+                  {% if child.path contains folder_path and child.path != page.path %}
                     {% assign is_child = true %}
                   {% endif %}
                 {% elsif page.dir == '/' and page.name != 'index.md' %}
