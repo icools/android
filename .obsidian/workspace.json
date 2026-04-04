@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5096ec685589bc4c",
+        "id": "f63927d8d5a44490",
         "type": "tabs",
         "children": [
           {
-            "id": "27361ffcaec86a2d",
+            "id": "6da99e2a92ff4cc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "books/clean-code.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "clean-code"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nerd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "書籤"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,8 +183,26 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "27361ffcaec86a2d",
+  "active": "6da99e2a92ff4cc3",
   "lastOpenFiles": [
+    "tools/scrcpy_virtual_screen.md",
+    "todo.md",
+    "tools.md",
+    "workflow.md",
+    "rust.md",
+    "README.md",
+    "performance.md",
+    "index.md",
+    "kotlin.md",
+    "draft.md",
+    "design.md",
+    "debugging.md",
+    "books.md",
+    "changelog.md",
+    "CONTENT_CHARTER.md",
+    "android.md",
+    "android/api/accessibility-api.md",
+    "android/api/android-app-functions-first-look.md",
     "_agents/skills/github_pages_doc_audit/SKILL.md",
     "tools/markdown-notebooklm-pptx-workflow.md",
     "tools/jetbrains-ast-psi-mermaid-guide.md",
@@ -190,28 +211,11 @@
     "ai/openai/codex/about-codex-usage.md",
     "design/keyword-search-diagrams.md",
     "ai/openai/chatgpt/chatgpt-connect-ecosystem-summary.md",
-    "tools/jetbrains-ast-psi-analysis.md",
-    "ai/google/gemma/gemma-restaurant-roulette-skill.md",
-    "android/api/android-app-functions-first-look.md",
-    "design/nereid-plugin-architecture.md",
     "process_drafts.py",
-    "draft/深入JetBrains骨髓：AST與PSI解析及Mermaid自動產圖指南.md",
-    "draft/nerd.md",
-    "draft/how_to_make_markdown_file_with_notebooklm_pptx_file_image.md",
-    "draft/gemma_4_restaurant_roulette_medium_article.md",
-    "draft/gemma4_restaurant_roulette_skill_article.md",
-    "draft/chatgpt-connect-ecosystem-summary.md",
-    "draft/ast_psi.md",
-    "draft/android17_ai_app_function.md",
-    "draft/about_codex_usage.md",
-    "draft/KeywordSearchDiagrams.md",
     "draft/ChatGPT Image 2026年4月3日 下午11_16_34.png",
     "draft/ChatGPT Image 2026年4月3日 下午11_05_30.png",
-    "draft/litert-lm.md",
-    "design/index.md",
     "assets/images/ast-psi-flow.jpg",
     "assets/images/restaurant-roulette-flow.jpg",
-    "ai/google/gemma-restaurant-roulette-skill.md",
     "assets/images"
   ]
 }
