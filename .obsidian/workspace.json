@@ -11,10 +11,14 @@
             "id": "0b8c11f20ec9d2cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "README"
             }
           }
         ]
@@ -179,9 +183,17 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "0b8c11f20ec9d2cb",
+  "active": "27c13acb8420ee1f",
   "lastOpenFiles": [
+    "code",
+    "kotlin/google-android-kotlin-learning-resources.md",
+    "README.md",
+    "CONTENT_CHARTER.md",
+    "changelog.md",
+    "ai.md",
     "2026-04-04.md",
+    "404.md",
+    "_agents/skills/notebooklm_pptx_to_markdown/SKILL.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "android/api/android-app-functions-first-look.md",
@@ -191,7 +203,6 @@
     "tools.md",
     "workflow.md",
     "rust.md",
-    "README.md",
     "performance.md",
     "index.md",
     "kotlin.md",
@@ -199,15 +210,9 @@
     "design.md",
     "debugging.md",
     "books.md",
-    "changelog.md",
-    "CONTENT_CHARTER.md",
     "android.md",
     "android/api/accessibility-api.md",
     "_agents/skills/github_pages_doc_audit/SKILL.md",
-    "tools/markdown-notebooklm-pptx-workflow.md",
-    "tools/jetbrains-ast-psi-mermaid-guide.md",
-    "design/diagram-tools-comparison.md",
-    "ai/google/gemma/gemma4-restaurant-roulette-medium.md",
     "process_drafts.py",
     "draft/ChatGPT Image 2026年4月3日 下午11_16_34.png",
     "draft/ChatGPT Image 2026年4月3日 下午11_05_30.png",
