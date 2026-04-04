@@ -1,3 +1,20 @@
+---
+title: 深入 JetBrains 骨髓：從 AST/PSI 到 AI 自動生成 Mermaid 架構圖
+tags:
+  - tools
+  - jetbrains
+  - intellij
+  - ast
+  - psi
+  - ai
+  - mermaid
+desc: 深入分析 JetBrains IDE 核心的 AST (Abstract Syntax Tree) 與 PSI (Program Structure Interface) 結構，教你解鎖內部模式開發高效能代碼分析與自動化繪圖工具。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 深入 JetBrains 骨髓：從 AST/PSI 到 AI 自動生成 Mermaid 架構圖的奇幻旅程
 寫扣寫到懷疑人生？接手前人的「祖傳屎山」時，想畫個 Class Diagram（類別圖）或 Sequence Diagram（循序圖）來通靈，但手刻 UML 實在太浪費生命？
 這篇筆記將帶你潛入 JetBrains IDE（IntelliJ, Android Studio 等）的最底層，解鎖隱藏模式，挖出程式碼的 AST 與 PSI 結構。最後教你怎麼利用這堆冷冰冰的樹狀圖，結合 AI 幫你自動生出漂漂亮亮的 Mermaid 語法！別再當苦力了，讓工具幫你幹活！

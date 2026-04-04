@@ -1,3 +1,18 @@
+---
+title: Gemma 4 Restaurant Roulette: Medium Article Style
+tags:
+  - ai
+  - google
+  - gemma
+  - medium
+  - project
+desc: 以 Medium 文章風格撰寫的 Gemma 4 餐廳轉盤專案總結，涵蓋架構設計、實作經驗與未來展望。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # 我研究了 Google AI Edge Gallery 的 Restaurant Roulette Skill，發現它其實是在 Android 上實作一個「LLM + JS Runtime + WebView」的小型 Agent 框架
 
 當我最近在看 Google 推出的 Gemma 4 與 Google AI Edge Gallery 時，本來只是想理解一下：所謂的 Agent Skills，到底是不是只是換個名字的 function calling？ 結果往下挖之後，我發現事情沒有那麼簡單。

@@ -1,3 +1,18 @@
+---
+title: Nereid — 專案架構文件 (JetBrains Mermaid Plugin)
+tags:
+  - design
+  - architecture
+  - mermaid
+  - intellij
+  - plugin
+desc: Nereid 是一個提供 Mermaid 即時預覽與語法支援的 JetBrains IDE 外掛。本篇文件詳細描述其高層架構、PSI/Lexer 解析流程與 JCEF 預覽實作。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 
 # Nereid — 專案架構文件  
   

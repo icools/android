@@ -26,6 +26,8 @@ status: active
 
 - [Gemma 基本介紹]({{ '/ai/google/gemma/gemma/' | relative_url }}) - 先看 Gemma 與 Gemini 的分工，以及它為什麼更適合 edge / on-device 場景。
 - [Gemma 4 索引]({{ '/ai/google/gemma/gemma4/' | relative_url }}) - 集中整理 Gemma 4 的模型定位、function calling、LLM to Action 與 Android Agent Skill 文章。
+- [Gemma Restaurant Roulette Skill](gemma/gemma-restaurant-roulette-skill.md) - 實測結合 LLM 結構化輸出、JS 邏輯與 WebView UI 的 Skill 實作流程。
+- [Gemma 4 Restaurant Roulette (Medium)](gemma/gemma4-restaurant-roulette-medium.md) - 以 Medium 風格撰寫的專案心得與架構圖解。
 
 ## Gemini Chat
 

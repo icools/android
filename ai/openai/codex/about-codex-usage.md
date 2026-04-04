@@ -1,3 +1,18 @@
+---
+title: Codex 使用指南：管理 Repository 與自動化文件
+tags:
+  - ai
+  - openai
+  - codex
+  - repository
+  - automation
+desc: 探討如何高效利用 OpenAI Codex 進行 Repository 維護、文件自動生成與 GitHub Pages 同步更新。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 
 
 # 我開始把 Codex 當成工程工作台，而不只是寫程式工具

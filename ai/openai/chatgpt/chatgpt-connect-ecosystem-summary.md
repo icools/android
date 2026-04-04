@@ -1,3 +1,18 @@
+---
+title: 總結：最近使用 ChatGPT Connect 生態後的整體心得
+tags:
+  - ai
+  - openai
+  - chatgpt
+  - connect
+  - ecosystem
+desc: 深度評論 ChatGPT Connect 系列功能（Google Docs/Slides/Sheets 整合），對比 Notion 與 Gemini 的優劣勢，探討 AI 自動化工作流的未來趨勢。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # 總結：最近使用 ChatGPT Connect 生態後的整體心得
 
 最近實際使用 ChatGPT 的各種 Connect 功能後，我最大的感受是：**工作效率被大幅拉高**。

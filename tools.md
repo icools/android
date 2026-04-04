@@ -23,6 +23,9 @@ status: active
 - [`jadx-ui`](tools/decompile/jadx-ui.md) - 很適合拿來查看 APK、反編譯程式碼、搜尋 class 與資源，是理解陌生 Android app 結構時很好用的工具。
 - [`simvyn`](tools/simvyn.md) - 一個整合 Android / iOS 裝置控制的 dashboard + CLI，我目前最看重的是它很適合長成 AI 可操作的測試與除錯控制層。
 - [`android-studio-mcp-server`](tools/android-studio-mcp-server.md) - 這篇整理 Android Studio 接 MCP server 的價值、適合情境，以及舊版 JetBrains proxy 與新版內建 MCP 支援之間的差異。
+- [`JetBrains AST/PSI 分析`](tools/jetbrains-ast-psi-analysis.md) - 深入 JetBrains IDE 底層結構，解讀 AST 與 PSI 的差異與應用。
+- [`JetBrains Mermaid 自動化`](tools/jetbrains-ast-psi-mermaid-guide.md) - 結合 AI 從 IDE PSI 結構自動生成 Mermaid 架構圖的進階指南。
+- [`NotebookLM PPTX 轉 Markdown`](tools/markdown-notebooklm-pptx-workflow.md) - 利用 AI Agent 將 NotebookLM 生成的 PPTX 轉換為 Markdown 與圖片的自動化流程。
 
 ## 之後想補上的工具
 

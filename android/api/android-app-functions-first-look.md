@@ -1,3 +1,18 @@
+---
+title: 我實測了 Android AppFunctions：官方已公開，但第三方開發者現在真的能用嗎？
+tags:
+  - android
+  - api
+  - ai
+  - appfunctions
+  - gemini
+desc: 深入評測 Android 17 引入的 AppFunctions 架構。實測在 Android 專案中整合 Jetpack AppFunctions 庫，探討 Gemini 與第三方 App 整合的現狀、挑戰與開發策略。
+author: icools
+date: 2026-04-04
+source: https://developer.android.com/ai/appfunctions
+status: active
+---
+
 # 我實測了 Android AppFunctions：官方已公開，但第三方開發者現在真的能用嗎？
 
 最近看到 Android 推出 **AppFunctions**，我第一個反應是：

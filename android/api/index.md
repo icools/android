@@ -25,6 +25,7 @@ status: active
 - [UseCase](usecase.md) - 可選的 domain layer，適合承接複雜或可重用的 business logic。
 - [DataSource](datasource.md) - local / remote / system data source 的責任邊界。
 - [JavaScriptEngine & WASM](web_javascriptengine_wasm.md) - 在 Android 10+ 上利用沙盒執行 JS/WASM 的能力，適合做為「快速解析規則層」或動態熱修補。
+- [Android AppFunctions 實測](android-app-functions-first-look.md) - 深入評測 Android 17 引入的 AppFunctions 架構與實戰經驗。
 
 ## 這組筆記怎麼搭
 

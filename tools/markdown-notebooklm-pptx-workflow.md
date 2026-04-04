@@ -1,3 +1,18 @@
+---
+title: 如何利用 AI Agent 將 NotebookLM 生成的 PPTX 轉換為 Markdown 與圖片
+tags:
+  - tools
+  - notebooklm
+  - pptx
+  - markdown
+  - automation
+desc: 詳細記錄將 NotebookLM 生成的 PPTX 展示文件自動化轉換為 Markdown 指南，包含圖片壓縮與格式優化流程。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # 如何善用 NotebookLM 與 AI Agent 打造完美的 Markdown 簡報筆記
 
 在知識產出與整理的過程中，我們常常會有將「寫好的文章」轉化為「簡報」的需求。產生簡報後，如何把內容無縫記錄回我們的知識庫？今天這篇文章，將分享如何利用 NotebookLM 產生優質簡報，並透過 AI Agent 自動安插到你的 Markdown (`.md`) 檔案中，讓整個工作流程更加順暢。

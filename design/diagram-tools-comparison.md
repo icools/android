@@ -1,3 +1,19 @@
+---
+title: 工程師畫圖神器大亂鬥：Mermaid vs Draw.io vs 傳統 UML
+tags:
+  - design
+  - tools
+  - diagram
+  - mermaid
+  - drawio
+  - uml
+desc: 深度評比多種工程繪圖工具，針對維護性、自動化、導出格式與開發場景進行全方位比較。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # **工程師畫圖神器大亂鬥：Mermaid vs Draw.io vs 傳統 UML**
 
 平常看 Code 已經夠傷眼了，遇到那種邏輯繞來繞去的「祖傳屎山」，不畫個架構圖真的會通靈到走火入魔。但是！拜託不要再用 PowerPoint 或 Word 裡面的形狀在那邊慢慢拉線了，那是給麻瓜用的。  

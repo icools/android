@@ -1,3 +1,19 @@
+---
+title: 用 JavaScript Skill + Gemini API + WebView 做出餐廳轉盤
+tags:
+  - ai
+  - google
+  - gemma
+  - javascript
+  - webview
+  - skill
+desc: 剖析如何結合 LLM 結構化輸出、JavaScript 邏輯控制與 WebView 互動 UI，開發一個基於 Gemini API 的餐廳轉盤 Skill。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # 用 JavaScript Skill + Gemini API + WebView 做出餐廳轉盤：這段程式到底在做什麼？
 
 最近在看一段很有意思的 JavaScript skill 程式碼，它的功能不是單純「問 AI 拿一個文字答案」而已，而是把 **AI 產生的資料** 進一步轉成 **可互動的 WebView UI**。
@@ -45,7 +61,7 @@ window['ai_edge_gallery_get_result'] = async (dataStr, secret) => {
 
 下面這張圖可以幫助理解整體資料流：
 
-![Restaurant roulette skill flowchart](sandbox:/mnt/data/a_flowchart_diagram_illustrates_the_interaction_be.png)
+![Restaurant roulette skill flowchart](/assets/images/restaurant-roulette-flow.jpg)
 
 從這張圖可以看到，整個流程並不是單純的：
 

@@ -1,3 +1,17 @@
+---
+title: Keyword Search Diagrams — 搜尋邏輯架構圖
+tags:
+  - design
+  - sequence-diagram
+  - mermaid
+  - search
+desc: 詳細記錄 Keyword 與 Search 邏輯的互動流程、狀態機與類別關係圖。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # Keyword Search Mermaid Diagrams
 
 ## 類別關係圖

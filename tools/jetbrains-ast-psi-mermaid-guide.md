@@ -1,3 +1,18 @@
+---
+title: 深入 JetBrains 骨髓：AST 與 PSI 解析及 Mermaid 自動產圖指南
+tags:
+  - tools
+  - jetbrains
+  - ast
+  - psi
+  - mermaid
+desc: 本進階指南教你如何解鎖 JetBrains 內部模式，提取代碼的 PSI 結構，並結合 AI 生成 Mermaid 架構圖。
+author: icools
+date: 2026-04-04
+source: local
+status: active
+---
+
 # **深入 JetBrains 骨髓：從 AST/PSI 到 AI 自動生成 Mermaid 架構圖的奇幻旅程**
 
 寫扣寫到懷疑人生？接手前人的「祖傳屎山」時，想畫個 Class Diagram（類別圖）或 Sequence Diagram（循序圖）來通靈，但手刻 UML 實在太浪費生命？  
