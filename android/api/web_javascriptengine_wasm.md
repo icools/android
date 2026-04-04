@@ -1,7 +1,24 @@
+---
+title: Android JavaScriptEngine 與 WASM 背景執行實戰心得
+tags:
+  - android
+  - javascriptengine
+  - wasm
+  - hotfix
+  - automation
+desc: 深入分析 Android 10+ 引入的 JavaScriptEngine 核心能力，包含 WASM 支援、沙盒機制、熱修補 (Hotfix) 架構設計以及能力偵測 (Capability check) 實務建議。
+author: icools
+date: 2026-04-04
+source: https://developer.android.com/develop/ui/views/layout/webapps/jsengine?hl=zh-tw
+status: active
+---
 
-原來可以透過JavaScriptEngine來執行JS或WASM，而且可以動態的執行替換，在andorid10以上支援
+# Android JavaScriptEngine (JS/WASM)
 
-https://developer.android.com/develop/ui/views/layout/webapps/jsengine?hl=zh-tw
+原來可以透過 `JavaScriptEngine` 來執行 JS 或 WASM，而且可以動態地執行替換（Hotfix），在 Android 10 以上支援。
+
+官方連結：[Executing JavaScript and WebAssembly | Android Developers](https://developer.android.com/develop/ui/views/layout/webapps/jsengine?hl=zh-tw)
+
 
 可以，**你的做法是合理的，而且很適合拿來做「快速熱修補規則層」** 👍
 但我會建議你把它定位成：

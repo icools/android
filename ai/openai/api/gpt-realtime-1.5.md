@@ -9,7 +9,7 @@ tags:
 desc: 整理 OpenAI Realtime API (gpt-4o-realtime-preview) 的核心概念，包含語音/視訊即時處理、Token 成本計算以及與傳統推論方式的差異。
 author: icools
 date: 2026-04-04
-source: local
+source: https://x.com/OpenAIDevs/status/2040094154899050515
 status: active
 ---
 

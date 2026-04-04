@@ -17,10 +17,12 @@ When a new markdown file is added or an existing one is modified, use this skill
      - `tags`: A list of relevant tags.
      - `author`: The author name (e.g., `icools`).
      - `date`: Completion/Update date (`YYYY-MM-DD`).
+     - `source`: The primary source URL if applicable (e.g., official docs, external articles).
 
 2. **Auto-Generate Missing Properties**
    - If properties are missing, summarize the file content to generate a fitting `title` and `desc`.
    - Recommend a set of `tags` based on the directory path and content.
+   - **Check for Source URLs**: If the content contains a primary reference URL (e.g., Android Developers link, news source), automatically add it to the `source` property.
 
 3. **Verify Indexing Status**
    - Check if the file is located in a directory that has an `index.md`.
