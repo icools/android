@@ -121,15 +121,19 @@ status: active
 - `CONTENT_CHARTER.md`
   這是整個知識庫的最高準則。它定義了分類方式、根目錄索引頁角色、文章應放的位置、frontmatter 欄位、命名規則、圖片規則，以及新增文章時應同步更新哪些地方。
 
+- `AI_MARKDOWN_WORKFLOW.md`
+  這是給多種 AI 工具快速讀取的短版規格。它把指定範圍處理、先檢查再整理、隱私停止條件、`draft/` 分類流程、圖片處理與來源補強規則整理成較容易直接遵守的操作順序。
+
 - `_agents/skills/github_pages_doc_audit/SKILL.md`
-  這個 skill 主要處理 GitHub Pages 與 Markdown 結構整理，包含：
+  這個 skill 現在主要處理指定 Markdown 目標的檢查與整理，包含：
+  - 只處理你指定的檔案或資料夾
+  - 預設先檢查，再整理
   - 檢查與補齊 frontmatter
-  - 檢查 `draft/` 內容是否該搬移到正式分類
-  - 幫草稿自動判斷分類與調整檔名 slug
-  - 檢查資料夾是否缺少 `index.md`
-  - 視情況更新父層索引
-  - 檢查相對連結
-  - 協助處理圖片格式優化
+  - 檢查 `draft/` 內容是否該搬移到最合適的既有正式分類
+  - 幫草稿保留 `draft` tag 供後續人工確認
+  - 檢查隱私風險並在命中時整批停止
+  - 處理本地圖片搬移、改名與 PNG 轉 JPG
+  - 視需要更新索引與相對連結
 
 - `_agents/skills/notebooklm_pptx_to_markdown/SKILL.md`
   這個 skill 主要處理把 `NotebookLM` 產生的 `.pptx` 內容轉成 Markdown 筆記，包含擷取投影片文字、匯出圖片、壓縮圖片，以及把內容整理後插入文章。
@@ -147,11 +151,16 @@ status: active
 從目前的規範與 skill 來看，這個 repo 已經有以下幾種整理能力：
 
 - 草稿暫存與後續重分類
+- 指定範圍 Markdown 檢查與整理
+- 先檢查再修改的兩階段工作流
 - Markdown frontmatter 補齊與統一
 - 文章命名與 slug 整理
 - 類別索引頁維護
+- 隱私敏感資訊中止檢查
+- `draft` tag 人工確認流程
 - GitHub Pages 顯示與發布結構整理
 - Obsidian 相容的 YAML properties / frontmatter 寫法
+- 本地圖片搬移、改名與 JPG 壓縮整理
 - PPTX 內容轉 Markdown 的匯入流程
 - 後續交由 Codex 持續整理、補寫與搬移的工作流基礎
 
